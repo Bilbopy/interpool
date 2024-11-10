@@ -218,7 +218,9 @@ footer ul.postprod li {
       <li><a href="#premier-fait-accusation">Premier fait d'accusation</a></li>
       <li>
         <a href="#deuxieme-fait-accusation">Deuxième fait d'accusation</a>
-      </li><br><br>
+      </li>
+      <br>
+      <br>
       <li><a href="#troisieme-fait-accusation">Troisième fait d'accusation</a></li>
       <li><a href="#plus-d-infos">Plus d'infos</a></li>
       <!-- Lien ajouté -->
