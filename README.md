@@ -321,8 +321,8 @@ footer ul.postprod li {
     <ul class="postprod">
       <li>Directeur Artistique : The Higuma</li><br>
       <li>Post Prod : Ritchi Mote</li><br>
-      <li>Rédacteur en chef : EthanRocket</li>
-      <LI>Monteur : Erwan Beauvallet</LI>
+      <li>Rédacteur en chef : EthanRocket</li><br>
+      <LI>Monteur : Erwan Beauvallet</LI><br>
       <LI>Associés : Jordann Stieau</LI>
     </ul>
   </div>
