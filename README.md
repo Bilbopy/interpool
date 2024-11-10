@@ -79,7 +79,7 @@ ul li a {
     color: #cfcfcf;
     text-decoration: none;
     font-weight: 600;
-    padding: 8px 12px; /* Ajoute un peu d'espace à l'intérieur de l'encadré */
+    padding: 8px 10px; /* Ajoute un peu d'espace à l'intérieur de l'encadré */
     border: 1px solid #444; /* Bordure fine et discrète */
     border-radius: 4px; /* Coins légèrement arrondis */
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
@@ -218,7 +218,7 @@ footer ul.postprod li {
       <li><a href="#premier-fait-accusation">Premier fait d'accusation</a></li>
       <li>
         <a href="#deuxieme-fait-accusation">Deuxième fait d'accusation</a>
-      </li>
+      </li><br><br>
       <li><a href="#troisieme-fait-accusation">Troisième fait d'accusation</a></li>
       <li><a href="#plus-d-infos">Plus d'infos</a></li>
       <!-- Lien ajouté -->
@@ -239,7 +239,7 @@ footer ul.postprod li {
       </a>
       <h2 id="Grotitre">Tony Mote/AstroNoxOne</h2>
       <p>
-        <strong>Alias :</strong> Ouba Ouba / Pointeur / Le père de Stevie dans
+        <strong>Alias :</strong> Ouba Ouba / PédoNox / / Le père de Stevie dans
         Malcolm / PédoNox
       </p>
       <p><strong>Antécédents :</strong></p>
@@ -263,7 +263,7 @@ footer ul.postprod li {
       <div id="tonyo">
         <p>
           10 avril 2024, Tony est aperçu à l'entrée du Collège Gerard Phillipe,
-          exhibant ses parties génitales devant un groupe d'élèves de 5ème...
+          exhibant ses parties génitales devant un groupe d'élèves de 5ème, un de ces élèves, victime principale nous partage son témoignage.
         </p>
       </div>
       <div class="image-container">
@@ -322,8 +322,8 @@ footer ul.postprod li {
       <li>Directeur Artistique : The Higuma</li><br>
       <li>Post Prod : Ritchi Mote</li><br>
       <li>Rédacteur en chef : EthanRocket</li><br>
-      <LI>Monteur : Erwan Beauvallet</LI><br>
-      <LI>Associés : Jordann Stieau</LI>
+      <li>Monteur : Erwan Beauvallet</li><br>
+      <li>Associés : Jordann Stieau</li>
     </ul>
   </div>
 </footer>
