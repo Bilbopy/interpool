@@ -191,8 +191,6 @@ th:hover, td:hover {
         font-size: 0.9em;
         margin: 10px 0; /* Espace entre chaque élément */
     }
-    
-          }
           .image-container img {
               border-radius: 8px;
               width: 300px;
