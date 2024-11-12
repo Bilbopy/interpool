@@ -10,6 +10,10 @@
         />
         <style>
           /* Styles de base */
+            .logo {
+    width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre pour le détacher du fond */
+}
           body {
               background: linear-gradient(135deg, #131212, #1a1a1a);
               color: #e0e0e0;
