@@ -100,57 +100,57 @@
     }
     /* Styles pour le tableau */
     /* Styles spécifiques pour le tableau */
-    table {
-      width: 80%;
-      margin: 30px auto;
-      border-collapse: collapse;
-      background-color: #262626;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    }
-    
-    th, td {
-      padding: 15px;
-      text-align: center;
-      font-size: 1.1em;
-      color: #cfcfcf;
-      border: 1px solid #444;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);  /* Ombre pour améliorer la lisibilité */
-    }
-    
-    th {
-      background-color: #333;
-      color: #ff4c4c;
-      font-weight: bold;
-      text-transform: uppercase;
-      text-shadow: 3px 3px 5px rgba(1, 1, 1, 2); /* Ombre plus marquée pour les en-têtes */
-    }
-    
-    td {
-      background-color: #1a1a1a;
-    }
-    
-    tr:hover {
-      background-color: #444;
-    }
-    
-    tr:nth-child(even) {
-      background-color: #262626;
-    }
-    
-    tr:nth-child(odd) {
-      background-color: #1a1a1a;
-    }
-    
-    td strong {
-      color: #ff4c4c;
-    }
-    
-    th:hover, td:hover {
-      border-color: #666666;
-    }
-    
-    
+    /* Styles spécifiques pour le tableau */
+table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: #262626;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border: 3px solid #ff4c4c; /* Bordure rouge autour du tableau */
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  font-size: 1.1em;
+  color: #cfcfcf;
+  border: 1px solid #444;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);  /* Ombre pour améliorer la lisibilité */
+}
+
+th {
+  background-color: #333;
+  color: #ff4c4c;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre plus marquée pour les en-têtes */
+}
+
+td {
+  background-color: #1a1a1a;
+}
+
+tr:hover {
+  background-color: #444;
+}
+
+tr:nth-child(even) {
+  background-color: #262626;
+}
+
+tr:nth-child(odd) {
+  background-color: #1a1a1a;
+}
+
+td strong {
+  color: #ff4c4c;
+}
+
+th:hover, td:hover {
+  border-color: #666666;
+}
       img.logo {
               width: 100px;
               height: auto;
