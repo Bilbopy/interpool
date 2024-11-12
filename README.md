@@ -254,7 +254,7 @@ th:hover, td:hover {
         <header>
           <img
             src="https://i.imgur.com/yqkccv6.png"
-            class="img"
+            class="logo"
             alt="Logo Interpol"
           />
           <h1>Interpol : Chasse à l'Homme</h1>
