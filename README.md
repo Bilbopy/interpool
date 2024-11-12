@@ -98,10 +98,62 @@ a {
     border-radius: 4px; /* Coins légèrement arrondis */
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
+/* Styles pour le tableau */
+table #statistiques-tiers {
+  width: 80%; /* Largeur du tableau */
+  margin: 30px auto; /* Centrer le tableau */
+  border-collapse: collapse; /* Fusionne les bordures des cellules */
+  background-color: #262626; /* Fond sombre pour le tableau */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre pour un effet de profondeur */
+}
 
+th, td {
+  padding: 15px; /* Espacement interne des cellules */
+  text-align: center; /* Centrer le texte dans les cellules */
+  font-size: 1.1em; /* Taille de police pour les données */
+  color: #cfcfcf; /* Texte gris clair */
+  border: 1px solid #444; /* Bordure fine et discrète */
+}
 
+th {
+  background-color: #333; /* Fond sombre pour les en-têtes */
+  color: #ff0000; /* Texte rouge pour les en-têtes */
+  font-weight: bold; /* Gras pour les en-têtes */
+  text-transform: uppercase; /* Texte en majuscules */
+}
 
-      img.logo {
+td {
+  background-color: #1a1a1a; /* Fond sombre pour les cellules */
+}
+
+tr:hover {
+  background-color: #ff0000; /* Fond gris clair au survol des lignes */
+}
+
+tr:nth-child(even) {
+  background-color: #262626; /* Fond alterné pour les lignes paires */
+}
+
+tr:nth-child(odd) {
+  background-color: #ff0000; /* Fond alterné pour les lignes impaires */
+}
+
+td strong {
+  color: #ff0000; /* Texte fort en rouge pour les valeurs importantes */
+}
+
+th:hover,
+td:hover {
+  border-color: #ff0202; /* Changement de la couleur de la bordure au survol */
+}
+
+table caption {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: #ff4c4c; /* Couleur rouge pour le titre du tableau */
+}
+  img.logo {
           width: 100px;
           height: auto;
           margin-bottom: 10px;
@@ -222,7 +274,7 @@ footer ul.postprod li {
       <br>
       <br>
       <li><a href="#troisieme-fait-accusation">Troisième fait d'accusation</a></li>
-      <li><a href="#plus-d-infos">Plus d'infos</a></li>
+      <li><a href="#infos-importantes">Infos importantes</a></li>
       <!-- Lien ajouté -->
     </ul>
 
@@ -315,8 +367,28 @@ footer ul.postprod li {
         <img id="caca" src="https://i.imgur.com/FNHU0Fy.png"/>
         </div>
         </section>
+        <h1>Statistiques Annexes</h1>
     <footer>
-  <div id="plus-d-infos">
+    <section id="statitiques-id">
+    <table>
+    <tr>
+      <th></th>
+      <th scope="col">Tony</th>
+      <th scope="col">À Bourges</th>
+    </tr>
+    <tr>
+      <th scope="row">Nombre d'agressions sexuelles sur mineurs</th>
+      <td><strong>56</strong></td>
+      <td><strong>37</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">Nombre d'agressions sexuelles sur majeurs</th>
+      <td><strong>0</strong></td>
+      <td><strong>58</strong></td>
+    </tr>
+  </table>
+  </section>
+         <div id="infos-importantes">
     <p class="footer-text">
       © 2024 - Chaque information ou donnée liée à cet individu sera récompensée de 5000$.
     </p>
