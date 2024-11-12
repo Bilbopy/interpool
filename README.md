@@ -108,7 +108,7 @@ table {
   background-color: #262626;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  border: 1px solid #ff4c4c; /* Bordure rouge autour du tableau */
+  border: 3px solid #ff4c4c; /* Bordure rouge autour du tableau */
 }
 
 th, td {
@@ -151,6 +151,10 @@ td strong {
 th:hover, td:hover {
   border-color: #666666;
 }
+
+    }
+    
+    
       img.logo {
               width: 100px;
               height: auto;
@@ -368,6 +372,7 @@ th:hover, td:hover {
             <h1>Statistiques Annexes</h1>
         <footer>
         <section id="statitiques-id">
+            <div class="table-container">
         <table>
         <tr>
           <th></th>
@@ -385,6 +390,7 @@ th:hover, td:hover {
           <td><strong>58</strong></td>
         </tr>
       </table>
+    </div>
       </section>
              <div id="infos-importantes">
         <p class="footer-text">
