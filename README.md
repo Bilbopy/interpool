@@ -108,7 +108,7 @@ table {
   background-color: #262626;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  border: 2px solid #ff4c4c; /* Bordure rouge autour du tableau */
+  border: 1px solid #ff4c4c; /* Bordure rouge autour du tableau */
 }
 
 th, td {
