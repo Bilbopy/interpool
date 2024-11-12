@@ -151,12 +151,17 @@ td strong {
 th:hover, td:hover {
   border-color: #666666;
 }
+
+    }
+    
+    
       img.logo {
               width: 100px;
               height: auto;
               margin-bottom: 10px;
           }
-            .image-container {
+    
+          .image-container {
               display: flex;
               justify-content: center;
               flex-wrap: wrap;
@@ -168,17 +173,20 @@ th:hover, td:hover {
         margin-top: 40px;
         text-align: center; /* Centre le texte dans le footer */
     }
-        footer .footer-text {
+    
+    footer .footer-text {
         color: #7d7c7c;
         font-size: 0.9em;
         margin-bottom: 10px;
     }
-        footer ul.postprod {
+    
+    footer ul.postprod {
         padding: 0;
         margin: 0 auto; /* Centre la liste */
         list-style: none;
     }
-        footer ul.postprod li {
+    
+    footer ul.postprod li {
         color: #7d7c7c;
         font-size: 0.9em;
         margin: 10px 0; /* Espace entre chaque élément */
@@ -191,10 +199,12 @@ th:hover, td:hover {
               transition: transform 0.3s ease, box-shadow 0.3s ease;
               box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
           }
-             .image-container img:hover {
+    
+          .image-container img:hover {
               transform: scale(1.05);
               box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
           }
+    
           img[src="https://i.imgur.com/tMQG1NO.png"],
           img[src="https://i.imgur.com/6HZ4DnA.png"],
           img[src="https://i.imgur.com/075HaTX.png"],
@@ -206,6 +216,8 @@ th:hover, td:hover {
         list-style-type: none;
         padding-left: 0;
     }
+    
+    
           #txtquentin {
               font-family: 'Courier New', Courier, monospace;
               font-size: 1.3em;
@@ -219,16 +231,19 @@ th:hover, td:hover {
               margin: 20px auto;
               text-align: left;
           }
+    
           footer {
               background-color: #333;
               padding: 20px;
               color: #888888;
               margin-top: 40px;
           }
+    
           footer ul {
               list-style: none;
               padding: 0;
           }
+    
           footer li {
               font-size: 0.9em;
               margin: 5px 0;
@@ -239,7 +254,7 @@ th:hover, td:hover {
         <header>
           <img
             src="https://i.imgur.com/yqkccv6.png"
-            class="logo"
+            class="img"
             alt="Logo Interpol"
           />
           <h1>Interpol : Chasse à l'Homme</h1>
@@ -249,6 +264,7 @@ th:hover, td:hover {
             </p>
           </div>
         </header>
+    
         <ul>
           <li><a href="#infos-sur-le-criminel">Infos sur le criminel</a></li>
           <li><a href="#premier-fait-accusation">Premier fait d'accusation</a></li>
@@ -261,6 +277,7 @@ th:hover, td:hover {
           <li><a href="#infos-importantes">Infos importantes</a></li>
           <!-- Lien ajouté -->
         </ul>
+    
         <section id="infos-sur-le-criminel">
           <a
             href="https://www.tiktok.com/@redifflive.01/video/7348605435521305889"
@@ -291,6 +308,7 @@ th:hover, td:hover {
           </ol>
           <p><strong>Dernière localisation :</strong> Collège Gerard Phillipe</p>
         </section>
+    
         <section id="premier-fait-accusation">
           <h2>Premier fait d'accusation</h2>
           <div class="image-container">
@@ -323,6 +341,7 @@ th:hover, td:hover {
             >"
           </div>
         </section>
+    
         <section id="deuxieme-fait-accusation">
           <h2>Deuxième fait d'accusation</h2>
           <p>
@@ -339,6 +358,7 @@ th:hover, td:hover {
             <img src="https://i.imgur.com/075HaTX.png" alt="Deuxième fait" />
           </div>
         </section>
+    
         <section id="troisieme-fait-accusation">
           <h2>Troisième fait d'accusation</h2>
           <p>
@@ -385,3 +405,4 @@ th:hover, td:hover {
     </footer>
       </body>
     </html>
+    <DOCTYPE html>
