@@ -212,7 +212,7 @@ th:hover, td:hover {
           img[src="https://i.imgur.com/tMQG1NO.png"],
           img[src="https://i.imgur.com/6HZ4DnA.png"],
           img[src="https://i.imgur.com/075HaTX.png"],
-          img[src="https://i.imgur.com/lUCcZ5c.png"] {
+          img[src="https://i.imgur.com/Oac6eM5.png"] {
               width: 450px;
               height: 300px;
           }
@@ -369,7 +369,7 @@ th:hover, td:hover {
           <p>
             Une après midi d'été, une jeune fille lance la célèbre application Azar, une célèbre application de chat en ligne, avec la possibilité de mettre sa caméra, cette jeune fille s'amusa à aller sur cette application jusuqu'au moment où elle est tombé sur un homme <a href="#caca">voir ci-dessous</a>, un jeune adulte dénudé s'affichant fièrement avec ses tatouages tribaux, la jeune fille a eu le temps d'enregistrer la scène atroce auquelle elle a du faire face. L'homme se serait proclamé comme étant"PedoNox King Of Pointeur" , effrayé par ce qu'elle a vue, elle décida de quitter l'application et d'en parler à son grand frère appelé DarkWolf94, son identité sera garder secrette pour des raisons de confidentialité. Malheureusement l'image ne nous permettra pas de trouvé plus d'informations cependant il nous permet d'affirmer que l'assaillant n'a pas mis un termes à ses activités malsaines.</p>
             <div class="image-container">
-            <img id="caca" src="https://i.imgur.com/lUCcZ5c.png"/>
+            <img id="caca" src="https://i.imgur.com/Oac6eM5.png"/>
             </div>
             </section>
             <h1>Statistiques Annexes</h1>
